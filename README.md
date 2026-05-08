@@ -1,23 +1,49 @@
-# SkyNav: Real-Time Global Flight Intelligence
+SkyNav: Real-Time Global Flight Intelligence
+✈️ Project Overview
+SkyNav is a high-performance, multi-page aviation dashboard designed for travelers and aviation enthusiasts. It provides a consolidated, real-time interface for monitoring global flight movements, leveraging live data to offer deep insights into schedules, statuses, and flight telemetry.
 
-## Project Overview
-SkyNav is a real-time aviation dashboard designed to provide travelers and aviation enthusiasts with consolidated, live data on flight statuses, delays, and aircraft specifications. 
+🛠️ Tech Stack
+Frontend: React.js (Vite)
 
-## The Problem
-Travelers often have to toggle between multiple airline apps and flight trackers to find technical data and real-time updates. SkyNav solves this by using the AviationStack API to provide a clean, modern interface for global flight monitoring.
+Styling: Tailwind CSS (Modern SaaS-inspired UI with a focus on clean cards and soft shadows)
 
-## Tech Stack
-* **Frontend:** React.js
-* **Styling:** Tailwind CSS
-* **API:** AviationStack API / OpenSky Network
-* **Hooks Used:** `useState`, `useEffect` (for live data fetching)
+Routing: React Router DOM (createBrowserRouter, RouterProvider)
 
-## Key Features
-* **Live Flight Tracking:** Real-time search by flight number or airport.
-* **Aircraft Insights:** Detailed specifications of Boeing and Airbus models.
-* **Responsive Dashboard:** Mobile-first design using Tailwind Grid and Flexbox.
+API: AviationStack Real-Time Flight API
 
-## Team Members
-1. Prajwal Kumar Yadav
-2. Ayush Jyala
-3. Snehaashish Sahoo
+State Management: Functional React Hooks (useState, useEffect, useLocation)
+
+🚀 Key Features
+Multi-Criteria Intelligence: Specialized search modules to find flights by:
+
+Airline & IATA: Traditional search by carrier name or flight code.
+
+Destination: Filter global traffic by arrival airports.
+
+Departure: Real-time monitoring of outgoing flights from specific hubs.
+
+Date & Time: Historical and scheduled flight lookups.
+
+Deep-Dive Details: Individual flight pages providing expanded technical data, including terminal information, gate assignments, and scheduled timings.
+
+Optimized Performance: Implements state-passing between routes to minimize redundant API calls and improve user experience.
+
+Responsive SaaS UI: A mobile-first, grid-based dashboard designed to mimic premium monitoring tools.
+
+🏗️ Technical Architecture
+This project demonstrates advanced foundational React patterns, specifically curated for technical assessment:
+
+Modern Routing: Utilizes the createBrowserRouter pattern for clean, declarative navigation.
+
+Asynchronous Data Handling: Native fetch implementation using async/await and robust try/catch error boundaries.
+
+Dynamic Derived State: Real-time filtering of large API datasets without unnecessary re-renders.
+
+Telemetry Passing: Efficient use of useLocation state to transfer complex flight objects between components.
+
+👥 Team Members
+Prajwal Kumar Yadav
+
+Ayush Jyala
+
+Snehaashish Sahoo
