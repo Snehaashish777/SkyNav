@@ -1,20 +1,21 @@
 SkyNav: Real-Time Global Flight Intelligence
+
 ✈️ Project Overview
 SkyNav is a high-performance, multi-page aviation dashboard designed for travelers and aviation enthusiasts. It provides a consolidated, real-time interface for monitoring global flight movements, leveraging live data to offer deep insights into schedules, statuses, and flight telemetry.
 
 🛠️ Tech Stack
-Frontend: React.js (Vite)
+Frontend: React.js (Vite).
 
-Styling: Tailwind CSS (Modern SaaS-inspired UI with a focus on clean cards and soft shadows)
+Styling: Tailwind CSS (Modern SaaS-inspired UI focusing on clean cards and soft shadows).
 
-Routing: React Router DOM (createBrowserRouter, RouterProvider)
+Routing: React Router DOM (createBrowserRouter, RouterProvider).
 
-API: AviationStack Real-Time Flight API
+API: AviationStack Real-Time Flight API.
 
-State Management: Functional React Hooks (useState, useEffect, useLocation)
+State Management: Functional React Hooks (useState, useEffect, useLocation).
 
 🚀 Key Features
-Multi-Criteria Intelligence: Specialized search modules to find flights by:
+Multi-Criteria Intelligence: Specialized search modules to find flights by multiple parameters:
 
 Airline & IATA: Traditional search by carrier name or flight code.
 
@@ -31,7 +32,7 @@ Optimized Performance: Implements state-passing between routes to minimize redun
 Responsive SaaS UI: A mobile-first, grid-based dashboard designed to mimic premium monitoring tools.
 
 🏗️ Technical Architecture
-This project demonstrates advanced foundational React patterns, specifically curated for technical assessment:
+This project demonstrates advanced foundational React patterns:
 
 Modern Routing: Utilizes the createBrowserRouter pattern for clean, declarative navigation.
 
