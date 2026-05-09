@@ -3,6 +3,8 @@ SkyNav: Real-Time Global Flight Intelligence
 ✈️ Project Overview
 SkyNav is a high-performance, multi-page aviation dashboard designed for travelers and aviation enthusiasts. It provides a consolidated, real-time interface for monitoring global flight movements, leveraging live data to offer deep insights into schedules, statuses, and flight telemetry.
 
+[🚀 Live Demo](https://skynav-rho.vercel.app)
+
 🛠️ Tech Stack
 Frontend: React.js (Vite).
 
